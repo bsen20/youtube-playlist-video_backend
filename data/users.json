@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "userId": "YWPX8R1N",
+      "email": "test@gmail.com",
+      "password": "$2b$10$j8vJCS/hWguelhoQKaZQMOh8OVAYZDsXWJ6z32AEpqWa9.NAQrX5K"
+    },
+    {
+      "userId": "OF27UJG2",
+      "email": "test2@tcs.com",
+      "password": "$2b$10$F0cIsfesYiBQp1c5okDWJ.oRJ0HDxwD8SccyXZH9mkzWP7XhAiDD."
+    }
+  ]
+}
