@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 4000;
 // Middleware
 app.use(
   cors({
-    origin: "https://683310964cb23a595cf8ca38--videoplaylistsaver.netlify.app/", // Replace with your frontend URL
+    origin: process.env.FRONT_END_URL, // <-- use your actual Netlify domain
     credentials: true,
   })
 );
