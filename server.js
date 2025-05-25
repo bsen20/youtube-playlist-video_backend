@@ -10,7 +10,12 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://683310964cb23a595cf8ca38--videoplaylistsaver.netlify.app/", // Replace with your frontend URL
+    credentials: true,
+  })
+);
 app.use(bodyParser.json());
 
 // ✅ Add this to parse incoming JSON requests
